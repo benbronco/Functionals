@@ -47,3 +47,19 @@ if canPurchase(amt: game2) {
 } else {
     print("Insufficient Funds!!")
 }
+
+
+var name = "Jack"
+var name2 = "Jackie"
+
+func names(name: String){
+    if names(name: <#T##String#>) == "Jack" {
+        print("Your name is Jack")
+    } else if names(name: <#T##String#>) == "Jackie" {
+        print("Your name is Jackie")
+    } else {
+        print("You are neither Jack or Jackie")
+    }
+}
+
+names(name: name)
